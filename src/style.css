@@ -1710,3 +1710,23 @@ footer a
     color:whitesmoke;
     font-size: small;     
 }
+
+.source
+{
+    background-color: #0665e2;
+    color:white;
+    padding:6px;
+    margin-right: 10px;
+    margin-left: 3px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.demo 
+{
+    background-color: #e20a06;
+    color:white;
+    padding:6px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 12px; 
+}

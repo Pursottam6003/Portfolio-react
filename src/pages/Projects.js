@@ -1,7 +1,7 @@
 import React from 'react'
 import Calculator from '../images/calculator.webp'
 import DesktopAssistent from '../images/assistent.png'
-import BakewithLove from '../images/comming_soon.webp'
+import BakewithLove from '../images/bakeWithLove.jpg'
 import Encourager from '../images/Discord-bot.png'
 import ToDoList from '../images/todolist.webp'
 import TypingGame from '../images/typingmbl.png'
@@ -30,13 +30,11 @@ export const Projects= () => {
             </div>
             <div className="info1">
                 <a href="#" target="_blank">
-                    <h3>Upcomming Project</h3>
+                    <h3>Ecommerce App</h3>
                 </a>
-                <p>⚡ Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veritatis id voluptates
-                    cupiditate quidem aliquid
+                <p>⚡  Developed E-Commerce Web application Bake with Love
                 </p>
-                <p>
-                    ⚡Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint ab harum tempore placeat?
+                <p>⚡ ReactJs is used in the frontend and Firebase is used at the backend for server authentication, Databases, and Cart Products.
                 </p>
                 <a href="#"><button type="button" className="Readmore">Read More</button></a>
 
