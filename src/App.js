@@ -2,12 +2,12 @@ import "./style.css"
 import { Hero } from "./pages/Hero"
 import { Blogs } from "./pages/Blogs"
 import { Skills } from "./pages/Skills"
+import CardComponent from "./pages/CardComponent"
 import { Projects } from "./pages/Projects"
 import { Experience } from "./pages/Experience"
 import { Achivements } from "./pages/Achivements"
 import { Contact } from "./pages/Contact"
 import { Footer } from "./pages/Footer"
-import CardComponent from "./pages/CardComponent"
 import {React,useState,useEffect} from "react"
 export default function App() {
     const [whatIAm, setWhatIAm] = useState("software Developer");
@@ -61,8 +61,7 @@ export default function App() {
             <Hero/>
             <Blogs/>
             <Skills/>
-            {/* <Projects/> */}
-            <CardComponent/>
+            <Projects/>
             <Experience/>
             <Achivements/>
             <Contact/>

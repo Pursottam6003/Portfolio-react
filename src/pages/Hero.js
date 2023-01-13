@@ -1,11 +1,11 @@
 import {React,useState,useEffect} from 'react'
 
-import Profile from "../images/Profile.png"
+
 import welcome from "../images/welcome.svg"
 import Namaste from '../images/namaste.webp'
 import Facebook from '../images/facebook.svg'
 import Instagram from '../images/instagram.svg'
-import FullImage from '../images/Full.png'
+import FullImage from '../images/image.jpg'
 
 export const Hero = () => {
     const [whatIAm, setWhatIAm] = useState("software Developer");
@@ -57,7 +57,7 @@ export const Hero = () => {
     <>       
         <div className="container" id="home">
             <div className="image">
-                <img src={Profile} alt="img" id="profile" />
+                <img src="https://media.licdn.com/dms/image/D4D03AQH9acu1gNfq9A/profile-displayphoto-shrink_800_800/0/1673559865137?e=1678924800&v=beta&t=C4w2fHZhn0jUEL-But9Asr2QVoN9ZMF4i0Hi8VYHE_I" alt="img" id="profile" />
             </div>
             <img src={welcome} alt="welcomeImg" className="weclome" id="welcome" />
             <span className="namasteimg">
@@ -235,22 +235,16 @@ export const Hero = () => {
             <h2 className="HowerMe">About Me</h2>
 
             <div className="imageAbout reveal">
-                <img src={FullImage} width="auto" height="260px" id="imageAbout" alt="About Pursottam " />
+                <img src={FullImage} width="270px" height="auto" id="imageAbout" alt="About Pursottam " />
             </div>
             <article className="reveal">
                 Hello! My name is <strong>Pursottam Sah</strong> and I am from <strong>Assam, India.</strong>I am a
                 Computer Science Undergraduate student at <strong>NIT Arunachal Pradesh,</strong>graduating in 2024.
             </article>
             <article className="reveal" >
-                I am interested in open source development and would like to work as an <strong>intern </strong>to help
-                me develop my technical skills and understand the work culture of a company or organization. my hobbies
-                are travelling and eating traditional, delicious food and being able to understand the
-                <strong>traditional culture </strong>of a particular area. Sometimes I even try to speak their <strong>
-                    local languages.</strong>
+            It would be <strong>interesting</strong>for me to work as an intern in the field of <strong>open source development</strong>. As a result, I will be able to develop my <strong>technical skills</strong> and gain a better understanding of a company's or organization's <strong>work culture. </strong>My hobbies are <strong>traveling</strong>, eating traditional, delicious food and being able to understand the traditional culture of a particular area. I have even tried speaking their <strong>native language</strong> at times.
             </article>
             <br />
-
-
         </div>
         <br />
         <br />
