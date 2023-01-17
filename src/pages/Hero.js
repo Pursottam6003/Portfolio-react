@@ -54,15 +54,12 @@ export const Hero = () => {
   return (
     <>       
         <div className="container" id="home">
-            <div className="image">
-                <img src="https://media.licdn.com/dms/image/D4D03AQH9acu1gNfq9A/profile-displayphoto-shrink_800_800/0/1673559865137?e=1678924800&v=beta&t=C4w2fHZhn0jUEL-But9Asr2QVoN9ZMF4i0Hi8VYHE_I" alt="img" id="profile" />
-            </div>
-            <img src={welcome} alt="welcomeImg" className="weclome" id="welcome" />
-            <span className="namasteimg">
-                <img src={Namaste} alt="img" id="namaste" />
-            </span>
+            <div>
+                <div className="image">
+                    <img src="https://media.licdn.com/dms/image/D4D03AQH9acu1gNfq9A/profile-displayphoto-shrink_800_800/0/1673559865137?e=1678924800&v=beta&t=C4w2fHZhn0jUEL-But9Asr2QVoN9ZMF4i0Hi8VYHE_I" alt="img" id="profile" />
+                </div>
 
-            <div className="description">
+                <div className="description">
                 <h2 className="name">Pursottam Sah</h2>
 
                 <a href="https://www.github.com/Pursottam6003" aria-label="github" target="_blank">
@@ -95,6 +92,17 @@ export const Hero = () => {
                 </a>
                 <p className="position">I am <span id="p1" >{whatIAm}</span></p>
             </div>
+            </div>
+
+            <div>
+                <img src={welcome} alt="welcomeImg" className="weclome" id="welcome" />
+            </div>
+
+            <div className="namasteimg">
+                <img src={Namaste} alt="img" id="namaste" />
+            </div>
+
+            
         </div>
 
         <ul className="navigationbar">
@@ -209,8 +217,7 @@ export const Hero = () => {
                 <p><strong>I am a</strong> Prefinal-Year <strong>Computer Science UG Student</strong> from <strong><a
                     href="http://nitap.ac.in/" target="_blank">NIT Arunachal Pradesh</a></strong> I am
                     currently exploring all the fields of Computer Science Such as <strong>Web Development,App
-                        Development,Competitive Programming , AI and ML etc</strong> Under the guidence of
-                    <strong>Mentors and Educators</strong>.
+                        Development,Competitive Programming , Machine Learning etc </strong>
                     <strong>I am interested</strong> in working in the progressive environment that is <strong>Open
                         Source Development.</strong> I am a <strong>team player</strong> and proactive while working in
                     a <strong>cooperative environment.</strong>
@@ -237,10 +244,11 @@ export const Hero = () => {
             </div>
             <article className="reveal">
                 Hello! My name is <strong>Pursottam Sah</strong> and I am from <strong>Assam, India.</strong>I am a
-                Computer Science Undergraduate student at <strong>NIT Arunachal Pradesh,</strong>graduating in 2024.
-            </article>
-            <article className="reveal" >
-            It would be <strong>interesting</strong>for me to work as an intern in the field of <strong>open source development</strong>. As a result, I will be able to develop my <strong>technical skills</strong> and gain a better understanding of a company's or organization's <strong>work culture. </strong>My hobbies are <strong>traveling</strong>, eating traditional, delicious food and being able to understand the traditional culture of a particular area. I have even tried speaking their <strong>native language</strong> at times.
+                Computer Science Undergraduate student at <strong>NIT Arunachal Pradesh, </strong>graduating in 2024.
+        
+                Working as an <strong>intern</strong> in the field of <strong>open source development</strong> would be interesting to me. By doing so, I will have the <strong>opportunity</strong> to develop my technical skills and gain a better understanding of the <strong>work culture</strong> at a company or organization.
+                <br/>
+                 Traveling, eating traditional, delicious foods, and understanding an area's traditional culture are some of my favorite hobbies. At times, I've even attempted to speak their language.
             </article>
             <br />
         </div>

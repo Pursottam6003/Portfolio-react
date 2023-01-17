@@ -1,6 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
+  "homepage": "https://pursottam6003.github.io/Portfolio-react/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -21,8 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "react-scripts build  && gh-pages -d public -b gh-pages"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

@@ -32,7 +32,7 @@ export const Experience = () => {
         {companyName:'Ekarigari Systems Pvt. Limited',InternshipPosition:'Embeded System (IOT) and ML Trainee',desc:"Currently learning IoT and embeded systems and thats helps in understanding core concepts of electronics",date:'July 2022 - Present',companySrc:'https://ekarigari.in/',pdfLink:'./offer_letter_ekarigari.pdf'},
         {companyName:'Business Web Solutions Pvt. Limited',InternshipPosition:'Full Stack Web Development Internship',desc:"Become expert in HTML, CSS, and Javascript as well as in scripting languages Such as Python",date:'May 2022 -July 2022',companySrc:'https://www.businesswebsolutions.in/',pdfLink:'./offerLetters/offer_letter_bws.pdf'},
         {companyName:'REBERT Technologies Pvt. Limited',InternshipPosition:'Full Stack Web Developer',desc:"Working on the current project of the company ‘DoBuizz’ where my tasks was to first understand the PHP codes",date:'June 2022 - July 2022',companySrc:'https://www.linkedin.com/company/rebert-tech/about/',pdfLink:'./offerLetters/offer_letter_rebert.pdf'},
-        {companyName:'MERN Stack Trainee',InternshipPosition:'MERN Stack Trainee',desc:'Understood the core concepts of JavaScript and wrote a mini book for students who want to learn Js from scratch',date:'June 2022 - July 2022',companySrc:'http://tathastu.twowaits.in/',pdfLink:'./offerLetters/offer_tathastu.pdf'},
+        {companyName:'Tathastu TwoWaits',InternshipPosition:'MERN Stack Trainee',desc:'Understood the core concepts of JavaScript and wrote a mini book for students who want to learn Js from scratch',date:'June 2022 - July 2022',companySrc:'http://tathastu.twowaits.in/',pdfLink:'./offerLetters/offer_tathastu.pdf'},
     ]
   
     return (
