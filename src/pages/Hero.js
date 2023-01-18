@@ -20,8 +20,6 @@ export const Hero = () => {
      
     },[])
 
-    let mybody = document.getElementById('mybody');
-
     function reveal()
     {
         var reveals=document.querySelectorAll(".reveal");
@@ -52,7 +50,7 @@ export const Hero = () => {
                 <div className="description">
                 <h2 className="name">Pursottam Sah</h2>
 
-                <a href="https://www.github.com/Pursottam6003" aria-label="github" target="_blank">
+                <a href="https://www.github.com/Pursottam6003" aria-label="github" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 24 24"
                         transform="translate(9,0)" >
                         <path
@@ -61,7 +59,7 @@ export const Hero = () => {
                         </path>
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/pursottam-sah-78aa4a1bb/" aria-label="linkedin" target="_blank">
+                <a href="https://www.linkedin.com/in/pursottam-sah-78aa4a1bb/" aria-label="linkedin" target="_blank" rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" id="" x="0px" y="0px" width="25" height="25" viewBox="0 0 45 45"
                         transform="translate(16,0)" style={{ fill: "var(--varln)" }}>
                         <path
@@ -70,12 +68,12 @@ export const Hero = () => {
                     </svg>
                 </a>
 
-                <a href="https://www.facebook.com/profile.php?id=100034293845796" aria-label="fb" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100034293845796" aria-label="fb" rel="noopener noreferrer" target="_blank">
 
                     <img src={Facebook} width="25px" height="25px" alt="fb" id="facebook" />
 
                 </a>
-                <a href="https://www.instagram.com/rahulsah6003/" aria-label="insta" target="_blank">
+                <a href="https://www.instagram.com/rahulsah6003/" aria-label="insta" target="_blank" rel="noopener noreferrer">
 
                     <img src={Instagram} width="25px" height="25px" alt="insta" id="insta" />
 
@@ -85,11 +83,11 @@ export const Hero = () => {
             </div>
 
             <div>
-                <img src={welcome} alt="welcomeImg" className="weclome" id="welcome" />
+                <img src={welcome} alt="welcome" className="weclome" id="welcome" />
             </div>
 
             <div className="namasteimg">
-                <img src={Namaste} alt="img" id="namaste" />
+                <img src={Namaste} alt="namaste" id="namaste" />
             </div>
 
             
@@ -205,7 +203,7 @@ export const Hero = () => {
             <h2 className="name">I'AM <span id="myname">PURSOTTAM SAH</span></h2>
             <div className="detailsinfo">
                 <p><strong>I am a</strong> Prefinal-Year <strong>Computer Science UG Student</strong> from <strong><a
-                    href="http://nitap.ac.in/" target="_blank">NIT Arunachal Pradesh</a></strong> I am
+                    href="http://nitap.ac.in/" target="_blank" rel="noopener noreferrer">NIT Arunachal Pradesh</a></strong> I am
                     currently exploring all the fields of Computer Science Such as <strong>Web Development,App
                         Development,Competitive Programming , Machine Learning etc </strong>
                     <strong>I am interested</strong> in working in the progressive environment that is <strong>Open
@@ -215,7 +213,7 @@ export const Hero = () => {
                 <div className="buttons">
                     <a href="#myprojects"><button id="mycv">My Project</button></a>
                     
-                    <a href={Resume} target="_blank">
+                    <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <button id="resume">Resume</button>
                     </a>
                 </div>

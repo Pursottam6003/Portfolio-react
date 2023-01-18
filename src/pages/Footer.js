@@ -11,7 +11,7 @@ export const Footer = () => {
                 <div className="socialhandles reveal">
                     <div className="footericons">
 
-                        <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" target="_blank"
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox" target="_blank" rel="noopener noreferrer"
                             aria-label="social-handles-icons">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" id="gmail" y="0px" width="40" height="40"
                                 viewBox="0 0 50 50" style={{ fill: "#000000" }}>
@@ -23,7 +23,7 @@ export const Footer = () => {
                     </div>
 
                     <div className="footericons">
-                        <a href="https://twitter.com/PursottamSah" target="_blank" aria-label="footer-icons-view">
+                        <a href="https://twitter.com/PursottamSah" target="_blank" aria-label="footer-icons-view" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="45" height="45"
                                 viewBox="0 0 50 50" style={{ fill: "#000000" }}>
                                 <path
@@ -33,7 +33,7 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div className="footericons">
-                        <a href="https://www.github.com/Pursottam6003" target="_blank" aria-label="footer-icons-view">
+                        <a href="https://www.github.com/Pursottam6003" target="_blank" rel="noopener noreferrer" aria-label="footer-icons-view">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
                                 viewBox="0 0 64 64" style={{ fill: "#000000" }}>
                                 <path
@@ -56,12 +56,12 @@ export const Footer = () => {
                 </div>
 
                 <div className="codingID">
-                    <p><a href="https://www.hackerrank.com/rahulsah6003" target="_blank">HackerRank</a></p>
-                    <p><a href="https://www.codechef.com/users/rahulsah6003" target="_blank">Codechef</a></p>
-                    <p><a href="https://codeforces.com/profile/pursottam" target="_blank">Codeforces</a></p>
+                    <p><a href="https://www.hackerrank.com/rahulsah6003" target="_blank" rel="noopener noreferrer">HackerRank</a></p>
+                    <p><a href="https://www.codechef.com/users/rahulsah6003" target="_blank" rel="noopener noreferrer">Codechef</a></p>
+                    <p><a href="https://codeforces.com/profile/pursottam" target="_blank" rel="noopener noreferrer">Codeforces</a></p>
                     <p><a href="https://auth.geeksforgeeks.org/user/rahulsah6003/practice/"
-                        target="_blank">GeeksforGeeks</a></p>
-                    <p><a href="https://www.coursera.org/user/d42cf0f8a131946140b56e9439a09b1c" target="_blank">Coursera</a>
+                        target="_blank" rel="noopener noreferrer">GeeksforGeeks</a></p>
+                    <p><a href="https://www.coursera.org/user/d42cf0f8a131946140b56e9439a09b1c" rel="noopener noreferrer" target="_blank">Coursera</a>
                     </p>
 
                 </div>

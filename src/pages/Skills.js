@@ -12,7 +12,7 @@ export const Skills = () => {
         </div>
 
         <div className='skillsRotator'>
-            <img src={gear} style={{width:'70px'}} className="gear"></img>
+            <img src={gear} style={{width:'70px'}} alt="gear" className="gear"></img>
         </div>
 
    

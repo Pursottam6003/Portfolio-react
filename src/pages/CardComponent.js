@@ -1,7 +1,7 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
 
-import { CardHeader, CardMedia, CardContent, CardActions, Collapse, IconButton, Typography, Card } from '@mui/material';
+import {CardMedia, CardContent, CardActions, Collapse, IconButton, Typography, Card } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LinkIcon from '@mui/icons-material/Link';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -12,13 +12,13 @@ import IoclTracker from '../images/iocl.jpeg'
 import Airavat from '../images/airavat.jpg'
 import SmartNaka from '../images/apsn.jpeg'
 import HousePricePrediction from '../images/housePricePrediction.webp'
-import Calculator from '../images/calculator.webp'
-import DesktopAssistent from '../images/assistent.png'
-import Encourager from '../images/Discord-bot.png'
-import ToDoList from '../images/todolist.webp'
-import TypingGame from '../images/typingmbl.png'
-import BankManagement from '../images/bank.png'
-import RockPaperScissor from '../images/rock_paper_ssr.webp'
+// import Calculator from '../images/calculator.webp'
+// import DesktopAssistent from '../images/assistent.png'
+// import Encourager from '../images/Discord-bot.png'
+// import ToDoList from '../images/todolist.webp'
+// import TypingGame from '../images/typingmbl.png'
+// import BankManagement from '../images/bank.png'
+// import RockPaperScissor from '../images/rock_paper_ssr.webp'
 
 
 const ExpandMore = styled((props) => {

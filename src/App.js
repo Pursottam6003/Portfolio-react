@@ -2,30 +2,14 @@ import "./style.css"
 import { Hero } from "./pages/Hero"
 import { Blogs } from "./pages/Blogs"
 import { Skills } from "./pages/Skills"
-import CardComponent from "./pages/CardComponent"
 import { Projects } from "./pages/Projects"
 import { Experience } from "./pages/Experience"
 import { Achivements } from "./pages/Achivements"
 import { Contact } from "./pages/Contact"
 import { Footer } from "./pages/Footer"
-import {React,useState,useEffect} from "react"
+import React from "react"
 export default function App() {
- 
-
     let mybody = document.getElementById('mybody');
-
-    function loading() {
-        console.log('inside the load');
-    
-        mybody.style.display = 'block';
-        window.onscroll = function () { window.scrollTo(0, 0); };
-        setTimeout(function () {
-
-            window.onscroll = 'enabled';
-
-        }, 1100);
-    }
-
     function reveal()
     {
         var reveals=document.querySelectorAll(".reveal");
