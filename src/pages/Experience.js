@@ -1,5 +1,11 @@
 import React from 'react'
 import GCloud from '../images/googlecloud.webp'
+import iocl from '../offerLetters/iocl.pdf'
+import Ekarigari from '../offerLetters/offer_letter_ekarigari.pdf'
+import Bws from '../offerLetters/offer_letter_bws.pdf'
+import NewtonsSchools from '../offerLetters/offer_letter_ekarigari.pdf'
+import Rebert from '../offerLetters/offer_letter_rebert.pdf'
+import Tathastu from '../offerLetters/offer_tathastu.pdf'
 
 const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLink})=>{
     return (
@@ -16,7 +22,7 @@ const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLin
                     <h3>{InternshipPosition} </h3>
                 </em>
                 <p>{desc}</p>
-                <a href={pdfLink}><button type="button" className="Readmore">View
+                <a href={pdfLink} target="_blank" ><button type="button" className="Readmore">View
                     Offer Letter</button></a>
             </li>
         </>
@@ -26,13 +32,13 @@ const MyExperience =({companyName,InternshipPosition,desc,date,companySrc,pdfLin
 export const Experience = () => {
 
     const Experiences =[
-        {companyName:'Newtons School Coding Club NITAP',InternshipPosition:'President',desc:"Managing 150 club members and organized coding contests and workshops to improve the coding environment",date:'Aug 2022 - President',companySrc:'https://iocl.com/',pdfLink:'#'},
+        {companyName:'Newtons School Coding Club NITAP',InternshipPosition:'President',desc:"Managing 150 club members and organized coding contests and workshops to improve the coding environment",date:'Aug 2022 - President',companySrc:'https://iocl.com/',pdfLink:iocl},
         {companyName:'Technodaya NIT Arunachal Pradesh',InternshipPosition:'Editor',desc:"Developed the Newletter Magazine Website for NIT Arunachal Pradesh",date:'Dec 2022 - Present',companySrc:'https://iocl.com/',pdfLink:'#'},
-        {companyName:'Indian Oil Corp. Limited',InternshipPosition:'SDE Internship',desc:"Completed the IOCL Vehicle Tracking and Management and Created the light weight web app using react.Js",date:'Dec 2022 - Jan 2023',companySrc:'https://iocl.com/',pdfLink:'#'},
-        {companyName:'Ekarigari Systems Pvt. Limited',InternshipPosition:'Embeded System (IOT) and ML Trainee',desc:"Currently learning IoT and embeded systems and thats helps in understanding core concepts of electronics",date:'July 2022 - Present',companySrc:'https://ekarigari.in/',pdfLink:'./offer_letter_ekarigari.pdf'},
-        {companyName:'Business Web Solutions Pvt. Limited',InternshipPosition:'Full Stack Web Development Internship',desc:"Become expert in HTML, CSS, and Javascript as well as in scripting languages Such as Python",date:'May 2022 -July 2022',companySrc:'https://www.businesswebsolutions.in/',pdfLink:'./offerLetters/offer_letter_bws.pdf'},
-        {companyName:'REBERT Technologies Pvt. Limited',InternshipPosition:'Full Stack Web Developer',desc:"Working on the current project of the company ‘DoBuizz’ where my tasks was to first understand the PHP codes",date:'June 2022 - July 2022',companySrc:'https://www.linkedin.com/company/rebert-tech/about/',pdfLink:'./offerLetters/offer_letter_rebert.pdf'},
-        {companyName:'Tathastu TwoWaits',InternshipPosition:'MERN Stack Trainee',desc:'Understood the core concepts of JavaScript and wrote a mini book for students who want to learn Js from scratch',date:'June 2022 - July 2022',companySrc:'http://tathastu.twowaits.in/',pdfLink:'./offerLetters/offer_tathastu.pdf'},
+        {companyName:'Indian Oil Corp. Limited',InternshipPosition:'SDE Internship',desc:"Completed the IOCL Vehicle Tracking and Management and Created the light weight web app using react.Js",date:'Dec 2022 - Jan 2023',companySrc:'https://iocl.com/',pdfLink:iocl},
+        {companyName:'Ekarigari Systems Pvt. Limited',InternshipPosition:'Embeded System (IOT) and ML Trainee',desc:"Currently learning IoT and embeded systems and thats helps in understanding core concepts of electronics",date:'July 2022 - Present',companySrc:'https://ekarigari.in/',pdfLink:Ekarigari},
+        {companyName:'Business Web Solutions Pvt. Limited',InternshipPosition:'Full Stack Web Development Internship',desc:"Become expert in HTML, CSS, and Javascript as well as in scripting languages Such as Python",date:'May 2022 -July 2022',companySrc:'https://www.businesswebsolutions.in/',pdfLink:Bws},
+        {companyName:'REBERT Technologies Pvt. Limited',InternshipPosition:'Full Stack Web Developer',desc:"Working on the current project of the company ‘DoBuizz’ where my tasks was to first understand the PHP codes",date:'June 2022 - July 2022',companySrc:'https://www.linkedin.com/company/rebert-tech/about/',pdfLink:Rebert},
+        {companyName:'Tathastu TwoWaits',InternshipPosition:'MERN Stack Trainee',desc:'Understood the core concepts of JavaScript and wrote a mini book for students who want to learn Js from scratch',date:'June 2022 - July 2022',companySrc:'http://tathastu.twowaits.in/',pdfLink:Tathastu},
     ]
   
     return (

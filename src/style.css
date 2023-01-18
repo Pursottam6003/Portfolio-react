@@ -39,11 +39,9 @@ html {
     display: inline-block;
     margin-left: 2rem;
 }
-
 #home {
     padding: 1rem;
-}
-
+} 
 
 #profile {
     position: relative;
@@ -56,7 +54,6 @@ html {
 }
 
 #welcome {
-   
     margin-top: 30px;
     width: 300px;
     height: 120px;
@@ -342,10 +339,6 @@ ul li {
     z-index: 1;
 }
 
-/* li:hover
-{
-  
-} */
 .navigationbar li.navigation_hover:hover {
     background-color: #199790;
     color: white;
@@ -461,7 +454,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap:25px;
 }
 
 .viewBlogs {
@@ -478,53 +471,32 @@ h3 {
     background-color: #0665e2;
 }
 
-.blog_representation {
-
-    width: 350px;
-    display: block;
-    box-shadow: 2px solid gray;
-}
-
-#blog1 {
-    color: white;
-}
-
-#blog1 :hover {
-    text-decoration: underline;
-}
-
-.HowerMe:hover {
-    text-decoration: underline;
-}
-
-#blog_img2 {
-    height: 245px;
-    width: auto;
-    background-image: url('./images/brain.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-#blog_img {
-    height: 245px;
-    width: auto;
-    background-image: url('./images/nodmcu.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+.blogFooter
+{
+    display: flex;
+    gap:13px;
+    padding-top:40px;
 }
 
 
-#blog_img3 {
-    height: 245px;
-    width: auto;
-    background-image: url('./images/lidar.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+.BlogContent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 680px;
+    background-color: #E5EAF0;
+    padding:15px;
+    border-radius: 5px;
+    gap:5px;
 }
 
+.textContent
+{
+    padding:8px;
+}
+
+ 
 .few_Words {
     bottom: 0px;
     margin: 0;
@@ -569,18 +541,10 @@ h3 {
 }
 
 .bound {
-    width: 90px;
-    margin: auto;
     color: black;
-    font-weight: 800;
     text-align: center;
-    padding: 5px;
-    animation-duration: 3s;
-    animation-name: skillsanimation;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-
-    border-radius: 5px;
+    padding-top:30px;
+    font-size: x-large;
 }
 
 .php {
@@ -1646,6 +1610,21 @@ footer a {
     .byebye {
         width: 200px;
     }
+    .BlogContent
+    {
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+        padding:5px;
+        align-items: center;
+    }
+    .blogFooter
+    {
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        
+    }
 }
 
 @media screen and (max-width:470px) {
@@ -1723,3 +1702,24 @@ footer a {
     border-radius: 10px;
     font-size: 12px;
 }
+
+.skillsRotator
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gear
+{
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

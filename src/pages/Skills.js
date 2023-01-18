@@ -2,11 +2,21 @@ import React from 'react'
 
 import Jquerry from '../images/jquery.svg'
 import php from '../images/php.svg'
+import gear from '../images/skillGear.png'
 
 export const Skills = () => {
   return (
-    <>
-        <div className="bound">My Skills</div>
+    <>  
+        <div className='bound'>
+            <h3>My Skills</h3>
+        </div>
+
+        <div className='skillsRotator'>
+            <img src={gear} style={{width:'70px'}} className="gear"></img>
+        </div>
+
+   
+        {/* <div className="bound">My Skills</div> */}
         <div className="skills reveal">
 
             <div className="skill" id="c">

@@ -1,0 +1,13 @@
+id = mybody
+.reveal 
+active 
+
+# Hero section
+welcome, namaster,facebook,instagram,fullimage,resume 
+
+.container , .image, .description, .name, .position, .welcome, id=welcome
+.namasteimg, .navigationbar , .mobilenav, homenav,
+
+.mainbody , first, name, detailsinfo,buttons,content , about,imageAbout
+
+

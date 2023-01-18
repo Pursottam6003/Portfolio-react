@@ -4,11 +4,13 @@ import Namaste from '../images/namaste.webp'
 import Facebook from '../images/facebook.svg'
 import Instagram from '../images/instagram.svg'
 import FullImage from '../images/image.jpg'
+import Resume from "../offerLetters/Pursottam.pdf"
+import Profile from '../images/Profile.png'
 
 export const Hero = () => {
     const [whatIAm, setWhatIAm] = useState("software Developer");
     const whomi =['Music Lover','Tech Geek','Programmer','Enterpreneur','Coder']
-    let i = 0;
+    let i = 0; 
 
     useEffect(() => {
         setInterval(() => {
@@ -19,18 +21,6 @@ export const Hero = () => {
     },[])
 
     let mybody = document.getElementById('mybody');
-
-    function loading() {
-        console.log('inside the load');
-    
-        mybody.style.display = 'block';
-        window.onscroll = function () { window.scrollTo(0, 0); };
-        setTimeout(function () {
-
-            window.onscroll = 'enabled';
-
-        }, 1100);
-    }
 
     function reveal()
     {
@@ -56,7 +46,7 @@ export const Hero = () => {
         <div className="container" id="home">
             <div>
                 <div className="image">
-                    <img src="https://media.licdn.com/dms/image/D4D03AQH9acu1gNfq9A/profile-displayphoto-shrink_800_800/0/1673559865137?e=1678924800&v=beta&t=C4w2fHZhn0jUEL-But9Asr2QVoN9ZMF4i0Hi8VYHE_I" alt="img" id="profile" />
+                    <img src={Profile} alt="img" id="profile" />
                 </div>
 
                 <div className="description">
@@ -225,7 +215,7 @@ export const Hero = () => {
                 <div className="buttons">
                     <a href="#myprojects"><button id="mycv">My Project</button></a>
                     
-                    <a href="./Pursottam.pdf" target="_blank">
+                    <a href={Resume} target="_blank">
                         <button id="resume">Resume</button>
                     </a>
                 </div>

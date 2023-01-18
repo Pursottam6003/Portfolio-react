@@ -10,17 +10,7 @@ import { Contact } from "./pages/Contact"
 import { Footer } from "./pages/Footer"
 import {React,useState,useEffect} from "react"
 export default function App() {
-    const [whatIAm, setWhatIAm] = useState("software Developer");
-    const whomi =['Music Lover','Tech Geek','Programmer','Enterpreneur','Coder']
-    let i = 0;
-
-    useEffect(() => {
-        setInterval(() => {
-            setWhatIAm(whomi[i]);
-            i = (i+1) % whomi.length
-        }, 3000);
-     
-    },[])
+ 
 
     let mybody = document.getElementById('mybody');
 
