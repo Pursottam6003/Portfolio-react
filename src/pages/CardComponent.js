@@ -42,7 +42,7 @@ const MyCardComponent = ({ projectTitle, imgsrc,period, shortDesc, codeSrc, demo
   return (
     <Card sx={{ maxWidth: 345 }}>
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-        <div className='title'>
+        <div className='Projtitle'>
           {projectTitle}
         </div>
         <div style={{ padding: 4, textAlign: "center", background: "#fc5356", color: "#ffffff", fontSize: 12, display: "inline-block", marginBottom:5, borderRadius: 16, fontWeight: 600 }}>{period} </div>
@@ -116,7 +116,7 @@ export default function CardComponent() {
   return (
     <>
 
-    <div className="learn reveal">
+    <div className="Projects reveal">
       {projectDetails.map(val => {
         return <MyCardComponent key={val.projectTitle} {...val} />
       })}

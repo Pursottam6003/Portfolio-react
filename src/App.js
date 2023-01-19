@@ -1,12 +1,15 @@
-import "./style.css"
+// import "./style.css"
+import "./index.css"
 import { Hero } from "./pages/Hero"
 import { Blogs } from "./pages/Blogs"
 import { Skills } from "./pages/Skills"
 import { Projects } from "./pages/Projects"
 import { Experience } from "./pages/Experience"
+import {Hobbies} from "./pages/Hobbies"
 import { Achivements } from "./pages/Achivements"
 import { Contact } from "./pages/Contact"
 import { Footer } from "./pages/Footer"
+
 import React from "react"
 export default function App() {
     let mybody = document.getElementById('mybody');
@@ -35,6 +38,7 @@ export default function App() {
             <Hero/>
             <Blogs/>
             <Skills/>
+            <Hobbies/>
             <Projects/>
             <Experience/>
             <Achivements/>

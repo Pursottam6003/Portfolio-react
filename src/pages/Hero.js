@@ -78,7 +78,7 @@ export const Hero = () => {
                     <img src={Instagram} width="25px" height="25px" alt="insta" id="insta" />
 
                 </a>
-                <p className="position">I am <span id="p1" >{whatIAm}</span></p>
+                <p className="designation">I am <span id="p1" >{whatIAm}</span></p>
             </div>
             </div>
 
@@ -86,7 +86,7 @@ export const Hero = () => {
                 <img src={welcome} alt="welcome" className="weclome" id="welcome" />
             </div>
 
-            <div className="namasteimg">
+            <div className="NamasteImg">
                 <img src={Namaste} alt="namaste" id="namaste" />
             </div>
 
@@ -198,7 +198,7 @@ export const Hero = () => {
 
         </ul>
 
-        <div className="mainbody">
+        <div className="IntroSection">
             <p className="first">HI THERE 👋</p>
             <h2 className="name">I'AM <span id="myname">PURSOTTAM SAH</span></h2>
             <div className="detailsinfo">
@@ -220,7 +220,7 @@ export const Hero = () => {
             </div>
         </div>
 
-        <div className="content">
+        <div className="animationBox">
             Hello!
         </div>
         <div className="About" id="about">

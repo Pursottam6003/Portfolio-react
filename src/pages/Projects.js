@@ -12,7 +12,7 @@ import CardComponent from './CardComponent'
 export const Projects = () => {
     return (
         <>
-            <div className="experience reveal" id="myprojects">
+            <div className="ProjectExperience reveal" id="myprojects">
                     <img src="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-project-project-management-itim2101-flat-itim2101-1.png"
                         id="projecticon" alt="exper" />
                 <h2>My Projects</h2>

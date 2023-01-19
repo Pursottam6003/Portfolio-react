@@ -177,7 +177,6 @@ html {
     padding-top: 10px;
     border-radius: 0.6rem;
     font-weight: bold;
-
 }
 
 @media screen and (max-width:670px) {
@@ -300,7 +299,6 @@ ul.navigationbar {
             top: 0%
         }
     }
-
 
 }
 
@@ -670,7 +668,6 @@ h3 {
     color: rgb(207, 4, 207);
     font-size: large;
     padding: 5px;
-
 }
 
 
@@ -1285,7 +1282,6 @@ h3 {
 
 .hackerank a {
     text-decoration: none;
-
 }
 
 .rectangel {

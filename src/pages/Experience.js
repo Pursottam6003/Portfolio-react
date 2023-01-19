@@ -68,7 +68,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1512645"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge1"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/W0dgzE99xnSKAISSMzB5oc26LS0%2Bovkh0%2B6SrIdp6BI%3D" />
                     </a>
                 </div>
@@ -76,7 +76,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1509278"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge2"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/i3kI5DADfu8XoQguEoj60FKhmKUmshuiSpVjQMNX9tU%3D" />
                     </a>
                 </div>
@@ -84,7 +84,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1508188"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge4"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/s2t82amH27Mnb3nUGyvX3PCjz2hPNAAAuy0GGcSUw0o%3D" />
                     </a>
                 </div>
@@ -92,14 +92,14 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1505328"
-                        aria-label="gclouds-bages" target="_blank"><img alt="badge" id="badge5"
+                        aria-label="gclouds-bages" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/Iq6U5qCbrNP0GYjuu3ekilm6w80lPQby%2Be3g4FTAvYw%3D" />
                     </a>
                 </div>
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1505109"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge6"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/nfpOK9orYE%2BYPBPDaK0OaqsYrl%2Bd8P65%2BuHEM30w6Lc%3D" />
                     </a>
                 </div>
@@ -107,7 +107,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1500144"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge7"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/07kUwYDVqqrkI1U8YT6HnUqEu2BPap32XKmsObf%2Fr%2FE%3D" />
                     </a>
                 </div>
@@ -115,7 +115,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1494961"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge8"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/6eEz754j8yLZkBHs0rDYncK6C9USCmW761FhA67hPpY%3D" />
                     </a>
                 </div>
@@ -123,7 +123,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1488764"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge9"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/xRWHjfezxRYadqVWMp%2F11IJEF3%2BalOKZ2lozMw0AP0I%3D" />
                     </a>
                 </div>
@@ -131,7 +131,7 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1487771"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge10"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/znmkTJlD25IshOEeMHKbJMDATKxt6dHxSh9F9ya0lkQ%3D" />
                     </a>
                 </div>
@@ -139,13 +139,13 @@ export const Experience = () => {
                 <div className="badge">
                     <a className="badge-image"
                         href="https://www.qwiklabs.com/public_profiles/bd50fe40-e9ba-4a07-b294-761861ed6125/badges/1477210"
-                        aria-label="gclouds-badges" target="_blank"><img alt="badge" id="badge11"
+                        aria-label="gclouds-badges" target="_blank"><img alt="badge" className='badgeImage'
                             src="https://cdn.qwiklabs.com/UZLH%2F8n0ULT4OYJPQtS7VD3jfhrtOneTgbB6P5BNrUM%3D" />
                     </a>
                 </div> 
             </div>
 
-            <div className="ex2 reveal">
+            <div className="reveal">
                 <div className="hackerank">
                     <a href="https://www.hackerrank.com/rahulsah6003?hr_r=1" target="_blank" aria-label="hacker-badges">
                         <h1>Coding Practice Platforms Badges</h1>
