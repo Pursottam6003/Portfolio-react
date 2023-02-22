@@ -26,6 +26,45 @@ a {
   transform: translateY(0);
   opacity: 1;
 }
+
+
+
+@media screen and (max-width:680px) {
+  .formitems {
+      padding: 2rem;
+      margin-top: 20px;
+  }
+
+  .codingID p {
+      font-size: medium;
+
+  }
+
+  .externalLinks p {
+      font-size: medium;
+  }
+
+  .byebye {
+      width: 200px;
+  }
+  .BlogContent
+  {
+      flex-direction: column;
+      justify-content: center;
+      
+      width: 350px;
+      padding:5px;
+      align-items: center;
+  }
+  .blogFooter
+  {
+      flex-wrap: wrap;
+      padding: 0px;
+      justify-content: center;
+      
+  }
+}
+
 /* Hero Section  */
 .container {
     width: 100%;

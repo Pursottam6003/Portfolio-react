@@ -1,5 +1,5 @@
-// import "./style.css"
-import "./index.css"
+import "./style.css"
+// import "./index.css"
 import { Hero } from "./pages/Hero"
 import { Blogs } from "./pages/Blogs"
 import { Skills } from "./pages/Skills"
