@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.a6379f0d.css",
+    "main.css": "/Portfolio-react/static/css/main.f21a7ce8.css",
     "main.js": "/Portfolio-react/static/js/main.0b0bc667.js",
     "static/media/housePricePrediction.webp": "/Portfolio-react/static/media/housePricePrediction.b31e0646f17411ac5222.webp",
     "static/media/iocl.pdf": "/Portfolio-react/static/media/iocl.921c77d08a26b055bd8f.pdf",
@@ -37,11 +37,11 @@
     "static/media/instagram.svg": "/Portfolio-react/static/media/instagram.e9e78fbbf84082ad5119aea55bd95a70.svg",
     "index.html": "/Portfolio-react/index.html",
     "static/media/facebook.svg": "/Portfolio-react/static/media/facebook.64835acfc86f43b23c0c99e8b5b8ff59.svg",
-    "main.a6379f0d.css.map": "/Portfolio-react/static/css/main.a6379f0d.css.map",
+    "main.f21a7ce8.css.map": "/Portfolio-react/static/css/main.f21a7ce8.css.map",
     "main.0b0bc667.js.map": "/Portfolio-react/static/js/main.0b0bc667.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6379f0d.css",
+    "static/css/main.f21a7ce8.css",
     "static/js/main.0b0bc667.js"
   ]
 }
