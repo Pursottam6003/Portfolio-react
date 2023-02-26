@@ -78,7 +78,19 @@ export const Hero = () => {
                     <img src={Instagram} width="25px" height="25px" alt="insta" id="insta" />
 
                 </a>
-                <p className="designation">I am <span id="p1" >{whatIAm}</span></p>
+                {/* <p className="designation">I am <span id="p1" >{whatIAm}</span></p> */}
+                <div className="Polyheadings">
+                
+                <div className="wrapper">
+                    <div className="static-txt"> I am</div>
+                        <ul className="dynamic-txts">
+                            <li><span>Youtuber</span></li>
+                            <li><span>Designer</span></li>
+                            <li><span>Freelancer</span></li>
+                            <li><span>Programmer</span></li> 
+                        </ul>
+                    </div>
+                </div>
             </div>
             </div>
 

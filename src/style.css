@@ -1720,3 +1720,137 @@ footer a {
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+.Polyheadings
+{
+    min-height: 11vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #52B0AB;
+}
+.wrapper {
+    display: flex;
+}
+
+.wrapper .static-txt {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts
+{
+    margin-left: -40px;
+    line-height: 90px;
+    height: 68px;
+    overflow: hidden;
+}
+
+.dynamic-txts li 
+{
+    list-style: none;
+    color:#000000;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 500;
+    top:0;
+    position: relative;
+    animation: slide 12s steps(4) infinite;
+}
+
+
+@keyframes slide 
+{
+    100% {
+        top: -360px;
+    }
+}
+.dynamic-txts li 
+{
+    position: relative;
+
+}
+
+.dynamic-txts li::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 30px;
+    height: 50%;
+    width: 100%;
+    font-size: small;
+    border-left: 2px solid #ff4c29;
+    background-color: #52B0AB;
+    animation: typing 3s steps(10) infinite;
+}
+
+
+@keyframes typing
+{
+    40%,
+    60% {
+        left:calc(100% + 30px);
+    }
+    100% {
+        left:0
+    }
+}
+
+.Educationheading
+{
+     font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.EducationSection
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.Institutions
+{
+    display: flex;
+    align-items: center;
+    line-height: 2px;
+}
+
+.InstitutionName
+{
+    width: 700px;
+    padding-left: 10px;
+    
+}
+.InsName
+{
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+.course
+{
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 1.2rem;
+}
+
+.year
+{
+    color:rgb(101, 99, 99);
+    font-size: 0.9rem;
+}
+.tag 
+{
+    background-color: red;
+    color:white;
+    font-size: small;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 20px;
+}

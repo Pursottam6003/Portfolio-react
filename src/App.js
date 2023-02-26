@@ -9,6 +9,7 @@ import {Hobbies} from "./pages/Hobbies"
 import { Achivements } from "./pages/Achivements"
 import { Contact } from "./pages/Contact"
 import { Footer } from "./pages/Footer"
+import Education from "./pages/Education"
 
 import React from "react"
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
 
         <div id="mybody">
             <Hero/>
+            <Education/>
             <Blogs/>
             <Skills/>
             <Hobbies/>
