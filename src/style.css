@@ -1502,16 +1502,16 @@ footer a {
 .year
 {
     color:rgb(101, 99, 99);
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-top: 5px;
 }
 .tag 
 {
     background-color: red;
     color:white;
     font-size: small;
-    padding: 4px;
+    padding: 6px;
     border-radius: 5px;
-    margin-left: 20px;
 }
 
 
