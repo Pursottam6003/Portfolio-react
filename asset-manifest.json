@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.f21a7ce8.css",
-    "main.js": "/Portfolio-react/static/js/main.0b0bc667.js",
+    "main.css": "/Portfolio-react/static/css/main.54765dae.css",
+    "main.js": "/Portfolio-react/static/js/main.1034d2c3.js",
     "static/media/housePricePrediction.webp": "/Portfolio-react/static/media/housePricePrediction.b31e0646f17411ac5222.webp",
     "static/media/iocl.pdf": "/Portfolio-react/static/media/iocl.921c77d08a26b055bd8f.pdf",
     "static/media/offer_letter_bws.pdf": "/Portfolio-react/static/media/offer_letter_bws.3067af337a4cc7be5f39.pdf",
@@ -13,9 +13,11 @@
     "static/media/iocl.jpeg": "/Portfolio-react/static/media/iocl.414dff8fd3190aa9fb7b.jpeg",
     "static/media/internships.jpg": "/Portfolio-react/static/media/internships.97ef223d83b255e56901.jpg",
     "static/media/offer_letter_newtonSchools.pdf": "/Portfolio-react/static/media/offer_letter_newtonSchools.a12b41fd69274ccdea33.pdf",
+    "static/media/nitap.png": "/Portfolio-react/static/media/nitap.ebf1e1fbc846a0212739.png",
     "static/media/iocl_office.jpg": "/Portfolio-react/static/media/iocl_office.48fe7f7bcc02233c2a18.jpg",
     "static/media/technodaya.jpg": "/Portfolio-react/static/media/technodaya.a201b3105853108d230f.jpg",
     "static/media/offer_letter_ekarigari.pdf": "/Portfolio-react/static/media/offer_letter_ekarigari.ee81c5e19aee7b173835.pdf",
+    "static/media/ghss.png": "/Portfolio-react/static/media/ghss.aba74126cc2c3966da6a.png",
     "static/media/Profile.png": "/Portfolio-react/static/media/Profile.9ab973a0f0b3fcfc76c0.png",
     "static/media/google_kickstart.jpg": "/Portfolio-react/static/media/google_kickstart.0d1cce2e5a5dad4d313a.jpg",
     "static/media/offer_tathastu.pdf": "/Portfolio-react/static/media/offer_tathastu.5f75c700d05748e72e58.pdf",
@@ -31,17 +33,18 @@
     "static/media/daily-tasks.png": "/Portfolio-react/static/media/daily-tasks.3999386bcb187a2ce4b6.png",
     "static/media/namaste.webp": "/Portfolio-react/static/media/namaste.e132a7a416a77fc5bd23.webp",
     "static/media/googlecloud.webp": "/Portfolio-react/static/media/googlecloud.1cd215e79fc3d2204fea.webp",
-    "static/media/php.svg": "/Portfolio-react/static/media/php.543fced03cfc70f923471e7882151e04.svg",
-    "static/media/welcome.svg": "/Portfolio-react/static/media/welcome.0c3067f1cdee332fda7883c78d48cfc2.svg",
-    "static/media/jquery.svg": "/Portfolio-react/static/media/jquery.db9647100a58a0c8956b65afca78a283.svg",
+    "static/media/php.svg": "/Portfolio-react/static/media/php.07a6c2d2ffcfcd8f5e8862a381abb04a.svg",
+    "static/media/welcome.svg": "/Portfolio-react/static/media/welcome.b0fd092bf8a5b26b4bc97f6ff274c77d.svg",
+    "static/media/jquery.svg": "/Portfolio-react/static/media/jquery.fec4ff47e9fd448a6612d69a84de8b65.svg",
     "static/media/instagram.svg": "/Portfolio-react/static/media/instagram.e9e78fbbf84082ad5119aea55bd95a70.svg",
     "index.html": "/Portfolio-react/index.html",
+    "static/media/link.svg": "/Portfolio-react/static/media/link.28031369a8a9ed38ddae5c02c0954e24.svg",
     "static/media/facebook.svg": "/Portfolio-react/static/media/facebook.64835acfc86f43b23c0c99e8b5b8ff59.svg",
-    "main.f21a7ce8.css.map": "/Portfolio-react/static/css/main.f21a7ce8.css.map",
-    "main.0b0bc667.js.map": "/Portfolio-react/static/js/main.0b0bc667.js.map"
+    "main.54765dae.css.map": "/Portfolio-react/static/css/main.54765dae.css.map",
+    "main.1034d2c3.js.map": "/Portfolio-react/static/js/main.1034d2c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21a7ce8.css",
-    "static/js/main.0b0bc667.js"
+    "static/css/main.54765dae.css",
+    "static/js/main.1034d2c3.js"
   ]
 }
