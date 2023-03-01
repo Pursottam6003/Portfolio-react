@@ -209,7 +209,6 @@ export const Hero = () => {
             </li>
 
         </ul>
-
         <div className="IntroSection">
             <p className="first">HI THERE 👋</p>
             <h2 className="name">I'AM <span id="myname">PURSOTTAM SAH</span></h2>
@@ -224,7 +223,7 @@ export const Hero = () => {
                 </p>
                 <div className="buttons">
                     <a href="#myprojects"><button id="mycv">My Project</button></a>
-                    
+                    <a href="#about" className="scrollDown"></a>
                     <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <button id="resume">Resume</button>
                     </a>
@@ -232,9 +231,9 @@ export const Hero = () => {
             </div>
         </div>
 
-        <div className="animationBox">
+        {/* <div className="animationBox">
             Hello!
-        </div>
+        </div> */}
         <div className="About" id="about">
             <img src="https://img.icons8.com/bubbles/50/000000/administrator-male.png" alt="about" />
             <h2 className="HowerMe">About Me</h2>

@@ -5,7 +5,7 @@ import { Blogs } from "./pages/Blogs"
 import { Skills } from "./pages/Skills"
 import { Projects } from "./pages/Projects"
 import { Experience } from "./pages/Experience"
-import {CodingProfile} from './pages/CodingProfile'
+import CodingProfile from "./pages/CodingProfile"
 import {Hobbies} from "./pages/Hobbies"
 import { Achivements } from "./pages/Achivements"
 import { Contact } from "./pages/Contact"
@@ -39,6 +39,7 @@ export default function App() {
         <div id="mybody">
             <Hero/>
             <Education/>
+            <CodingProfile/>
             <Blogs/>
             <Skills/>
             <Hobbies/>

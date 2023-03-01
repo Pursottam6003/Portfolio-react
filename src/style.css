@@ -240,10 +240,9 @@ ul li {
 }
 
 .buttons {
-    width: 300px;
-    height: 100px;
-    margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:50px;
 }
 
 .buttons a {
@@ -1853,5 +1852,52 @@ footer a {
         width: 100px;
         height: 100px;
     }
+}
+.scrollDown 
+{
+    position: absolute;
+    left: calc(50% - 0.5rem);
+    bottom: 5vh;
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 100;
+    text-decoration: none;
+    text-shadow: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-bottom: 6px solid #02de11;
+    border-right: 6px solid #02de11;
+    transform: translate(-50%, 0%) rotate(45deg);
+    animation: fade_move_down 2s ease-in-out infinite;
+}
+@keyframes  fade_move_down{
+    0% {
+        transform: translate(0, -10px) rotate(45deg);
+        opacity: 0;
+    }
+    
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 10px) rotate(45deg);
+        opacity: 0;
+    }
+    
+}
+.CodingProfile
+{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.company 
+{
+    font-size: larger;
+    font-weight: bold;
+    font-family: cursive;
 }
 
