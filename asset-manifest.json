@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-react/static/css/main.54765dae.css",
-    "main.js": "/Portfolio-react/static/js/main.1034d2c3.js",
+    "main.css": "/Portfolio-react/static/css/main.56147cab.css",
+    "main.js": "/Portfolio-react/static/js/main.895dc8ff.js",
     "static/media/housePricePrediction.webp": "/Portfolio-react/static/media/housePricePrediction.b31e0646f17411ac5222.webp",
     "static/media/iocl.pdf": "/Portfolio-react/static/media/iocl.921c77d08a26b055bd8f.pdf",
     "static/media/offer_letter_bws.pdf": "/Portfolio-react/static/media/offer_letter_bws.3067af337a4cc7be5f39.pdf",
@@ -34,17 +34,21 @@
     "static/media/namaste.webp": "/Portfolio-react/static/media/namaste.e132a7a416a77fc5bd23.webp",
     "static/media/googlecloud.webp": "/Portfolio-react/static/media/googlecloud.1cd215e79fc3d2204fea.webp",
     "static/media/php.svg": "/Portfolio-react/static/media/php.07a6c2d2ffcfcd8f5e8862a381abb04a.svg",
+    "static/media/codechef.svg": "/Portfolio-react/static/media/codechef.461978f271d519b355f5bacf086d6fe6.svg",
     "static/media/welcome.svg": "/Portfolio-react/static/media/welcome.b0fd092bf8a5b26b4bc97f6ff274c77d.svg",
+    "static/media/leetcode.svg": "/Portfolio-react/static/media/leetcode.dd873da27d35d913d1132337bfd8585e.svg",
+    "static/media/gfg.svg": "/Portfolio-react/static/media/gfg.7e7037821287b9c5998deb14e78f7436.svg",
     "static/media/jquery.svg": "/Portfolio-react/static/media/jquery.fec4ff47e9fd448a6612d69a84de8b65.svg",
     "static/media/instagram.svg": "/Portfolio-react/static/media/instagram.e9e78fbbf84082ad5119aea55bd95a70.svg",
+    "static/media/hackerank.svg": "/Portfolio-react/static/media/hackerank.e262ea18f227f319335cfc0a8dbf29ec.svg",
     "index.html": "/Portfolio-react/index.html",
     "static/media/link.svg": "/Portfolio-react/static/media/link.28031369a8a9ed38ddae5c02c0954e24.svg",
     "static/media/facebook.svg": "/Portfolio-react/static/media/facebook.64835acfc86f43b23c0c99e8b5b8ff59.svg",
-    "main.54765dae.css.map": "/Portfolio-react/static/css/main.54765dae.css.map",
-    "main.1034d2c3.js.map": "/Portfolio-react/static/js/main.1034d2c3.js.map"
+    "main.56147cab.css.map": "/Portfolio-react/static/css/main.56147cab.css.map",
+    "main.895dc8ff.js.map": "/Portfolio-react/static/js/main.895dc8ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.54765dae.css",
-    "static/js/main.1034d2c3.js"
+    "static/css/main.56147cab.css",
+    "static/js/main.895dc8ff.js"
   ]
 }
