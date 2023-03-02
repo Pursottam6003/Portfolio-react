@@ -2,10 +2,35 @@ import React from 'react'
 import nitap from '../images/nitap.png'
 import ghss from '../images/ghss.png'
 import LinkIcon from '../images/link.svg'
-import Chip from '@mui/material/Chip';
-import EditIcon from '@mui/icons-material/Edit';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
+
+const EducationSection=({InstName,InstSrc,Imgsrc,course,date,marks,isCompleted})=>{
+  return(
+    <>
+      <div className='Institutions reveal' key={course}>
+          <div className='InstitutionLogo'>
+              <img src={Imgsrc}  alt={InstName} style={{width:"80px"}}></img>
+          </div>
+          <div className='InstitutionName'>
+              <p className='InsName'>{InstName}</p>
+              <p className='course'>{course}</p>
+              <div className='academicDetails' style={{display:"flex"}}>
+
+              <div className='year'>{date} </div>
+              {isCompleted ? <><div className='tag' style={{background:"green"
+              }}>Completed</div> </> : <> <div className='tag' >In Progress</div></>}
+             
+              <div> 
+              <a href={InstSrc} target="_blank"><img src={LinkIcon}/></a></div>
+              <div className='score' style={{fontStyle:'italic',paddingTop:"5px"}}>
+                {marks}
+              </div>
+              </div>
+          </div>
+      </div>
+    </>
+  )
+}
 
 const Education = () => {
 
@@ -22,33 +47,9 @@ const Education = () => {
         <img  alt="education" src="https://img.icons8.com/external-vectorslab-flat-vectorslab/53/null/external-degree-education-vectorslab-flat-vectorslab.png"/>
         <h2>Education</h2> 
       </div>
-
-      {EducationDetails.map(val =>{
-        return (
-          <>
-          <div className='Institutions reveal' key={val.course}>
-          <div className='InstitutionLogo'>
-              <img src={val.Imgsrc}  alt={val.InstName} style={{width:"80px"}}></img>
-          </div>
-          <div className='InstitutionName'>
-              <p className='InsName'>{val.InstName}</p>
-              <p className='course'>{val.course}</p>
-              <div style={{display:"flex",gap:"20px",padding:"5px"}}>
-
-              <div className='year'>{val.date} </div>
-              {val.isCompleted ? <><div className='tag' style={{background:"green"
-              }}>Completed</div> </> : <> <div className='tag' >In Progress</div></>}
-             
-              <div> 
-              <a href={val.InstSrc} target="_blank"><img src={LinkIcon}/></a></div>
-              <div style={{fontSize:"18px",fontStyle:'italic',paddingTop:"5px"}}>
-                {val.marks}
-              </div>
-              </div>
-          </div>
-          </div>
-          </>
-        )
+ 
+      {EducationDetails.map(val=>{
+        return <EducationSection key = {val.date} {...val} />
       })}
     </div>
 

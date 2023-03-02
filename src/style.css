@@ -1481,10 +1481,40 @@ footer a {
 
 .InstitutionName
 {
-    width: 700px;
-    padding-left: 10px;
+    max-width: 780px;
+    padding: 5px;
     
 }
+.academicDetails
+{
+    gap:10px;
+    padding:10px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:780px) {
+    .InstitutionName{
+        line-height: normal;
+    }
+    .InsName
+    {
+        font-size: 12px;
+    }
+    .course
+    {
+        font-size: 12px;
+    }
+    .tag
+    {
+        font-size:  12px;
+    }
+    .score
+    {
+        font-size: 12px;
+    }     
+}
+
+
 .InsName
 {
     font-weight: 500;
@@ -1504,6 +1534,10 @@ footer a {
     font-size: 1rem;
     margin-top: 5px;
 }
+.score 
+{
+    font-size: 16px;
+}
 .tag 
 {
     background-color: red;
@@ -1516,22 +1550,24 @@ footer a {
 
 @media (max-width:1000px) {
     #welcome {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 }
 
 @media (max-width:890px) {
     #welcome {
-        margin-left: 100px;
+        margin-left: 30px;
         width: 200px;
     }
 }
 
 @media (max-width:590px) {
     #welcome {
-        margin-left: 10px;
         width: 150px;
+        margin-top: 0px;
     }
+
+
 }
 
 @media screen and (max-width:670px) {
@@ -1551,10 +1587,16 @@ footer a {
     .container {
         flex-wrap: wrap;
         column-gap: 30px;
+        justify-content: center;
     }
     .container :nth-child(1) { order: 1; }
     .container :nth-child(2) { order: 3; }
     .container :nth-child(3) { order: 2; }
+    #welcome 
+    {
+        width: 250px;
+    }
+
 }
 
 @media (min-width:440px) {
@@ -1571,12 +1613,49 @@ footer a {
     #HomeNav {
         display: none;
     }
+   
+    .wrapper .dynamic-txts 
+    {
+        height: 50px;
+    }
+   
 }
 
 @media screen and (max-width: 526px) {
     #namaste {
-        height: 130px;
+        height: 150px;
+        width: 120px;
         margin-top: 1rem;
+    }
+
+    .InsName
+    {
+        font-size:13px;
+    }
+    .course
+    {
+        font-size: 10px;
+    }
+    .tag
+    {
+        font-size:  10px;
+        padding:4px;
+    }
+    .year 
+    {
+        font-size: small;
+    }
+    .score
+    {
+        font-size: small;
+    }     
+    .wrapper .dynamic-txts 
+    {
+        height: 60px;
+    }
+    .dynamic-txts li
+    {
+        font-size: 16px;
     }
 }
 
